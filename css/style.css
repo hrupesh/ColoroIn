@@ -293,3 +293,17 @@ body {
     background: #3e64ff !important;
     border-color: #3e64ff !important;
   }
+
+  /* Gradients Code */
+
+ .gradient_body {
+    height: 213px;
+    /* height: 84px; */
+    width: 100%;
+    box-shadow: none;
+    border-radius: 6.76509px 6.76509px 6.76509px 6.76509px;
+    position: relative;
+    text-align: center !important;
+    cursor: pointer;
+    
+  }
