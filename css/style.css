@@ -7,6 +7,15 @@ body {
 .color {
     margin: 50px auto;
 }
+.navbar{
+  border-radius: 40px;
+}
+#search{
+  background: transparent;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+}
 
 .palette-card {
     width: 260px !important;
@@ -91,7 +100,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
-    background-color: #3e64ff;
+    background-color: #581b98;
     padding: 15px 40px;
     min-width: 340px;
     text-align: center;
@@ -108,6 +117,16 @@ body {
   #content{
     background: #fbfdff;
     box-shadow: 0 2px 4px rgba(0,0,0,.0622169);
+  }
+  #content h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  #content p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #959595;
   }
   
   #sidebar {
@@ -150,7 +169,7 @@ body {
   
   #sidebar .logo {
     display: block;
-    color: #fff;
+    color: #581b98;
     font-weight: 900;
     padding: 10px 30px;
     -webkit-transition: 0.3s;
@@ -214,14 +233,14 @@ body {
   }
   
   #sidebar ul li a:hover {
-    color: #0072ea;
-    background: linear-gradient(to right,#0072ea 2.5%,#e7f1fd -14%)!important;
+    color: #581b98;
+    background: linear-gradient(to right,#581b98 2.5%,#e7f1fd -14%)!important;
   }
   
   #sidebar ul li.active>a {
     background: transparent;
-    color: #0072ea;
-    background: linear-gradient(to right,#0072ea 2.5%,#e7f1fd -14%)!important;
+    color: #581b98;
+    background: linear-gradient(to right,#581b98 2.5%,#e7f1fd -14%)!important;
   }
   #sidebar.active ul.components li a span{
     display: none;
@@ -284,14 +303,14 @@ body {
   }
   
   .btn.btn-primary {
-    background: #3e64ff;
-    border-color: #3e64ff;
+    background: #581b98;
+    border-color: #581b98;
   }
   
   .btn.btn-primary:hover,
   .btn.btn-primary:focus {
-    background: #3e64ff !important;
-    border-color: #3e64ff !important;
+    background: #581b98 !important;
+    border-color: #581b98 !important;
   }
 
   /* Gradients Code */
