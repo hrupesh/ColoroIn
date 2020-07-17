@@ -180,7 +180,9 @@ body {
       transition: none;
     }
   }
-  
+  #sidebar svg{
+    margin-right: 30px;
+  }
   #sidebar ul li {
     font-size: 16px;
   }
@@ -220,6 +222,13 @@ body {
     background: transparent;
     color: #0072ea;
     background: linear-gradient(to right,#0072ea 2.5%,#e7f1fd -14%)!important;
+  }
+  #sidebar.active ul.components li a span{
+    display: none;
+    transition: 0.3s ease-in;
+  }
+  #sidebar.active ul.components li a svg{
+    margin-right: 0;
   }
   
   @media (max-width: 991.98px) {
